@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Learn To Web Socket",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts":{
+    "start": "node index.js"
   },
   "author": "Wisnu Alipudin",
   "license": "ISC",
@@ -15,7 +15,5 @@
     "nodemon": "^1.18.3",
     "socket.io": "^2.1.1"
   },
-  "scripts":{
-    "start": "node index.js"
-  }
+  
 }
