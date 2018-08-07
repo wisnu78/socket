@@ -1,9 +1,10 @@
 let express = require('express');
 let socket = require('socket.io');
+let port = process.env.PORT || 4000;
 
 //Setup App
 let app = express();
-let server = app.listen(5000,()=>{
+let server = app.listen(port,()=>{
   console.log("Anda berada di localhost 4000");
 });
 
